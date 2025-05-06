@@ -1,0 +1,7 @@
+# https://ansible.readthedocs.io/projects/lint/usage/
+
+warn_list:
+  - role-name
+
+# skip_list:
+#   - "syntax-check[specific][/]"   # Rule 'syntax-check' is unskippable, you cannot use it in 'skip_list' or 'warn_list'. Still, you could exclude the file
