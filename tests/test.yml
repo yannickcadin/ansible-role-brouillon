@@ -1,6 +1,7 @@
 # SPDX-License-Identifier: MIT-0
 ---
-- hosts: localhost
+- name: Vérification du rôle (name est requis par ansible-lint et sa "valeur" doit obligatoirement commencer par une majuscule)
+  hosts: localhost
   remote_user: root
   roles:
-    - brouillon
+    - brouillon2

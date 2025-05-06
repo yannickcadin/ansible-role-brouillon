@@ -1,8 +1,13 @@
 # SPDX-License-Identifier: MIT-0
 galaxy_info:
+#  version: "12.34"   # interdit
+
+  role_name: brouillon2  # if absent directory name hosting role is used instead  => LE NOM DOIT ÊTRE IDENTIQUE DANS tests/test.yml
+#  namespace: my_galaxy_namespace  # if absent, author is used instead
+
   author: Yannick Cadin
-  description: Pour tester la publication sur Galaxy
   company: Diablotin
+  description: Pour tester la publication sur Galaxy
 
   # If the issue tracker for your role is not on github, uncomment the
   # next line and provide a value
@@ -17,7 +22,7 @@ galaxy_info:
   # - CC-BY-4.0
   license: GPL-3.0-only
 
-  min_ansible_version: "2.1"
+  min_ansible_version: "2.1"   # l'absence de délimiteurs nous vaut un avertissement d'ansible-lint
 
   # If this a Container Enabled role, provide the minimum Ansible Container version.
   # min_ansible_container_version:
